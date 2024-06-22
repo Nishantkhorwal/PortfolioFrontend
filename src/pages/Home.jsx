@@ -171,7 +171,7 @@ function Home() {
     e.preventDefault();
     try {
       setIsFormLoading(true);
-      const response = await fetch('http://localhost:3000/api/message', {
+      const response = await fetch('https://portfoliobackend-ij0n.onrender.com/api/message', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
