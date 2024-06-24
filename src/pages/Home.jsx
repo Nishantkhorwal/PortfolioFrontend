@@ -362,8 +362,8 @@ function Home() {
           </div>
          <div className='py-20 ' id='projects'>
           <h1 className='text-white font-bold text-2xl lg:text-6xl lg:px-20 px-4 mb-16'>Projects</h1>
-          <div className='flex flex-col flex-wrap lg:flex-row px-8 lg:px-20'>
-          <a target='_blank' href='https://main--kalikakeshariweb.netlify.app/'><div className=' group rounded-xl cursor-pointer me-8 border-t border-t-gray-300 mb-8 '>
+          <div className='flex flex-col flex-wrap lg:flex-row   lg:px-20'>
+          <a target='_blank' href='https://main--kalikakeshariweb.netlify.app/'><div className=' group rounded-xl cursor-pointer  w-[320px] md:w-[680px] lg:w-[450px] me-8 border-t border-t-gray-300 mb-8 '>
             <div className='rounded-t-xl border-b border-b-gray-300 px-3 py-4'>
               <div className='flex  flex-row justify-between '><h1 className='text-4xl mb-3 text-white'>Project 1</h1><GoArrowUpRight className='text-white text-5xl lg:group-hover:rotate-45 transform duration-300'/></div>
               <div className='lg:opacity-0 lg:group-hover:opacity-100 lg:h-0  lg:group-hover:h-auto transition-all duration-300 transform lg:scale-0  lg:group-hover:scale-110 lg:ms-6 '>
@@ -371,12 +371,12 @@ function Home() {
 
               </div>
             </div>
-            <div className=' w-[350px] md:w-[680px] lg:w-[450px]'>
+            <div className=' w-[320px] md:w-[680px] lg:w-[450px]'>
               <img src='schoolWeb.png' className='rounded-b-xl w-full h-full object-cover'></img>
             </div>
 
           </div></a>
-          <a target='_blank' href='https://main--servicefullstack.netlify.app/'><div className=' group rounded-xl cursor-pointer me-8 border-t border-t-gray-300'>
+          <a target='_blank' href='https://main--servicefullstack.netlify.app/'><div className=' group rounded-xl cursor-pointer w-[320px] md:w-[680px] lg:w-[450px] me-8 border-t border-t-gray-300'>
             <div className='rounded-t-xl border-b border-b-gray-300 px-3 py-4'>
               <div className='flex  flex-row justify-between '><h1 className='text-4xl mb-3 text-white'>Project 2</h1><GoArrowUpRight className='text-white text-5xl lg:group-hover:rotate-45 transform duration-300'/></div>
               <div className='lg:opacity-0 lg:group-hover:opacity-100 lg:h-0  lg:group-hover:h-auto transition-all duration-300 transform lg:scale-0  lg:group-hover:scale-110 lg:ms-6 '>
@@ -384,7 +384,7 @@ function Home() {
 
               </div>
             </div>
-            <div className=' w-[350px] md:w-[680px] lg:w-[450px]'>
+            <div className=' w-[320px] md:w-[680px] lg:w-[450px]'>
               <img src='ServiceWeb.png' className='rounded-b-xl w-full h-full object-cover'></img>
             </div>
 
@@ -412,7 +412,7 @@ function Home() {
           <div className='flex flex-col justify-between'>
             <div className='mb-20 lg:mb-0'>
             <h1 className='text-gray-300 mb-2'>Get in touch</h1>
-            <p className='text-gray-100 text-3xl font-bold mb-4'>khorwalnishant@gmail.com</p>
+            <p className='text-gray-100 text-lg md:text-3xl font-bold mb-4'>khorwalnishant@gmail.com</p>
             <p className='text-gray-300 mb-1'>+91-7701839633</p>
             <p className='text-gray-300 '>Karol Bagh, New Delhi</p>
             </div>
