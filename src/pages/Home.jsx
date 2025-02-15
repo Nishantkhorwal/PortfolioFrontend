@@ -389,16 +389,16 @@ function Home() {
             </div>
 
           </div></a>
-          <a target='_blank' href='https://main--servicefullstack.netlify.app/'><div className=' group rounded-xl cursor-pointer w-[320px] md:w-[680px] lg:w-[450px] me-8 border-t border-t-gray-300'>
+          <a target='_blank' href='https://ecommerce-git-main-nishants-projects-97a5ecc4.vercel.app'><div className=' group rounded-xl cursor-pointer w-[320px] md:w-[680px] lg:w-[450px] me-8 border-t border-t-gray-300'>
             <div className='rounded-t-xl border-b border-b-gray-300 px-3 py-4'>
               <div className='flex  flex-row justify-between '><h1 className='text-4xl mb-3 text-white'>Project 2</h1><GoArrowUpRight className='text-white text-5xl lg:group-hover:rotate-45 transform duration-300'/></div>
               <div className='lg:opacity-0 lg:group-hover:opacity-100 lg:h-0  lg:group-hover:h-auto transition-all duration-300 transform lg:scale-0  lg:group-hover:scale-110 lg:ms-6 '>
-                <h1 className='text-gray-100 text-lg text-start'>Service Website</h1>
+                <h1 className='text-gray-100 text-lg text-start'>Ecommerce Website</h1>
 
               </div>
             </div>
             <div className=' w-[320px] md:w-[680px] lg:w-[450px]'>
-              <img src='ServiceWeb.png' className='rounded-b-xl w-full h-full object-cover'></img>
+              <img src='Ecom.png' className='rounded-b-xl w-full h-full object-cover'></img>
             </div>
 
           </div></a>  
