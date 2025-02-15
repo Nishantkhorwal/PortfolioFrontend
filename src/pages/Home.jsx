@@ -266,7 +266,9 @@ function Home() {
             <div className='w-full lg:w-1/2'>
               <h1 className='font-bold text-white text-6xl mb-6'>About</h1>
               <p className='text-2xl text-gray-100 mb-10'>
-                I am a full stack Web Developer, specializing in MERN stack. I have more than 6 months of experience as a MERN Developer. Though, I am honing my skills (HTML, CSS & JavaScript) of Web development from about a year. I pride myself on being a quick learner and attentive listener, which allows me to collaborate effectively with clients to create efficient and scalable solutions. My focus is on developing user-friendly applications that solve real-world problems.
+                I am a Full-Stack Web Developer specializing in the MERN stack with expertise in Next.js, deployment, Docker, AWS, and scalable web applications. With over six months of experience as a MERN Developer and a year of honing my skills in web development, I have worked on both professional and self-learning projects.  
+
+My professional projects include an Inventory Management System, while my self-learning projects include an eCommerce website built with Next.js. I focus on creating efficient, user-friendly applications that solve real-world problems. As a quick learner and problem solver, I am always eager to explore new technologies and optimize development processes.
               </p>
               <div className="accordion" id="accordionExample">
                 {headings.map((heading, index) => (
@@ -391,7 +393,7 @@ function Home() {
           </div></a>
           <a target='_blank' href='https://ecommerce-git-main-nishants-projects-97a5ecc4.vercel.app'><div className=' group rounded-xl cursor-pointer w-[320px] md:w-[680px] lg:w-[450px] me-8 border-t border-t-gray-300'>
             <div className='rounded-t-xl border-b border-b-gray-300 px-3 py-4'>
-              <div className='flex  flex-row justify-between '><h1 className='text-4xl mb-3 text-white'>Project 2</h1><GoArrowUpRight className='text-white text-5xl lg:group-hover:rotate-45 transform duration-300'/></div>
+              <div className='flex  flex-row justify-between '><h1 className='text-4xl mb-3 text-white'>Project 3</h1><GoArrowUpRight className='text-white text-5xl lg:group-hover:rotate-45 transform duration-300'/></div>
               <div className='lg:opacity-0 lg:group-hover:opacity-100 lg:h-0  lg:group-hover:h-auto transition-all duration-300 transform lg:scale-0  lg:group-hover:scale-110 lg:ms-6 '>
                 <h1 className='text-gray-100 text-lg text-start'>Ecommerce Website</h1>
 
