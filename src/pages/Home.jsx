@@ -265,7 +265,7 @@ function Home() {
           <div className='flex flex-col lg:flex-row px-4 lg:px-20 pb-20' id='about'>
             <div className='w-full lg:w-1/2'>
               <h1 className='font-bold text-white text-6xl mb-6'>About</h1>
-              <p className='text-2xl text-gray-100 mb-10'>
+              <p className='text-2xl text-gray-100 mb-10 text-justify'>
                 I am a Full-Stack Web Developer specializing in the MERN stack with expertise in Next.js, deployment, Docker, AWS, and scalable web applications. With over six months of experience as a MERN Developer and a year of honing my skills in web development, I have worked on both professional and self-learning projects.  
 
 My professional projects include an Inventory Management System, while my self-learning projects include an eCommerce website built with Next.js. I focus on creating efficient, user-friendly applications that solve real-world problems. As a quick learner and problem solver, I am always eager to explore new technologies and optimize development processes.
