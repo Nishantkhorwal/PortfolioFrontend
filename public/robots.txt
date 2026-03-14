@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://khorwalnishant.netlify.app/sitemap.xml
