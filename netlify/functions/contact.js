@@ -99,20 +99,20 @@ export async function handler(event) {
 
   try {
 
-    const { name, email, projectTitle, message } = JSON.parse(event.body);
+    const { name, email, subject, message } = JSON.parse(event.body);
 
     const resend = new Resend(process.env.RESEND_API_KEY);
 
      await resend.emails.send({
       from: "onboarding@resend.dev",
       to: "khorwalnishant@gmail.com",
-      subject: `New Project Inquiry: ${projectTitle}`,
+      subject: `New Project Inquiry: ${subject}`,
       html: `
         <h2>New Website Lead</h2>
 
         <p><b>Name:</b> ${name}</p>
         <p><b>Email:</b> ${email}</p>
-        <p><b>Project:</b> ${projectTitle}</p>
+        <p><b>Project:</b> ${subject}</p>
         <p><b>Message:</b></p>
         <p>${message}</p>
       `
