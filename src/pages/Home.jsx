@@ -433,26 +433,28 @@ const handleChange = (e) => {
                 </h2>
 
                 <p className='text-gray-300 text-lg leading-relaxed mb-10'>
-                  I am a Full-Stack Software Developer with 2+ years of experience building
-                  scalable web applications, business platforms, and enterprise software
-                  solutions. Currently, I work as a Software Developer at ROF where I design,
-                  develop, and deploy internal software systems used for business operations.
+              I am Nishant Khorwal, a Full Stack MERN Developer with over 2 years of
+              experience building scalable web applications, enterprise software
+              systems, and modern business websites.
 
-                  I have independently developed complex business applications including
-                  Sales Management Systems, Inventory Management Systems, Asset Management
-                  Systems, and HRMS software for my organization. These systems were
-                  architected, developed, and deployed entirely by me, covering both frontend
-                  and backend development along with server deployment.
+              Currently working as a Software Developer at ROF, I design and develop
+              enterprise software solutions including Sales Management Systems,
+              Inventory Management Systems, Asset Management Platforms, and HRMS
+              applications used for real business operations.
 
-                  Alongside my professional role, I actively work as a freelance developer,
-                  helping businesses build modern websites and digital platforms. I have also
-                  developed the corporate website for AdstechIndia, delivering a responsive
-                  and performance-optimized web experience.
+              My expertise includes JavaScript, React.js, Node.js, Express.js,
+              MongoDB, and modern frontend technologies like Tailwind CSS.
 
-                  My expertise lies in building high-performance applications using the
-                  MERN stack, designing scalable backend architectures, and delivering
-                  reliable production-ready software solutions.
-                </p>
+              Along with enterprise software development, I also work as a freelance
+              web developer helping businesses build fast, responsive, and
+              SEO-optimized websites that deliver excellent user experience and
+              performance.
+
+              I focus on building scalable architectures, high-performance web
+              applications, and production-ready software that helps businesses grow
+              digitally.
+              </p>
+
 
 
 
