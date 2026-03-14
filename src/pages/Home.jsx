@@ -416,6 +416,7 @@ const handleChange = (e) => {
 
                   <img
                     src='/photo2.png'   // replace with your image
+                    alt='Nishant Khorwal Full Stack MERN Developer'
                     className='relative w-[320px] md:w-[380px] lg:w-[420px] rounded-2xl object-cover border border-gray-800'
                   />
 
@@ -631,6 +632,7 @@ const handleChange = (e) => {
 
         <img
         src={project.image}
+         alt='Project Image'
         className="w-full h-[200px] object-cover hover:scale-110 transition duration-700"
         />
 
@@ -725,6 +727,7 @@ const handleChange = (e) => {
 
         <img
         src={site.image}
+        alt='Project Image'
         className="w-full h-[250px] object-cover group-hover:scale-110 transition duration-700"
         />
 
@@ -782,6 +785,7 @@ const handleChange = (e) => {
 
         <img
         src={site.image}
+        alt='Project Image'
         className="w-full h-[250px] object-cover group-hover:scale-110 transition duration-700"
         />
 
