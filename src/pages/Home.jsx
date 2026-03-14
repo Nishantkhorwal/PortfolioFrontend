@@ -279,38 +279,40 @@ const handleChange = (e) => {
     return isValidEmail.test(email);
   };
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      setIsFormLoading(true);
-      const response = await fetch('https://portfoliobackend-ij0n.onrender.com/api/message', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formData)
+  e.preventDefault();
+
+  setIsSuccess(false);
+
+  try {
+
+    const res = await fetch("/.netlify/functions/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(formData)
+    });
+
+    const data = await res.json();
+
+    if (data.success) {
+
+      setIsSuccess(true);
+
+      setFormData({
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
       });
-      setIsFormLoading(false);
-      console.log(formData);
-      if (response.ok) {
-        setIsSuccess(true);
-        setTimeout(() => {
-          setIsSuccess(false);
-        }, 3000); // Reset success message after 3 seconds
-        setFormData({
-          name: '',
-          email: '',
-          subject: '',
-          message: ''
-        }); // Clear form fields after successful submission
-      } else {
-        const responseData = await response.text(); // Read response body as text
-        console.error('Failed to submit form:', responseData || 'Empty response');
-      }
-    } catch (error) {
-      setIsFormLoading(false);
-      console.error('Error submitting form:', error);
+
     }
-  };
+
+  } catch (error) {
+    console.error("Form error:", error);
+  }
+};
+
 
   return (
     <>
@@ -876,7 +878,7 @@ const handleChange = (e) => {
            
             <input id='subject' name='subject' className='border-b border-gray-300 w-full mb-10 bg-transparent py-2 px-4 text-white focus:outline-none focus:border-b  focus:border-gray-600' value={formData.subject} onChange={handleChange} placeholder='Subject' />
             <textarea id='message' name='message' className='border-b border-gray-300 w-full mb-10 bg-transparent py-2 px-4 text-white focus:outline-none focus:border-b focus:border-gray-600 resize-none' value={formData.message} onChange={handleChange} placeholder='Message' />
-            <button type='submit' className='px-6 py-2 border border-gray-300 rounded-3xl text-gray-400 text-lg hover:text-white hover:border-white'>Discuss The Project</button>
+            <button onSubmit={handleSubmit} className='px-6 py-2 border border-gray-300 rounded-3xl text-gray-400 text-lg hover:text-white hover:border-white'>Discuss The Project</button>
 
             {errors.email && <span className="text-red-500">{errors.email}</span>}
             {isSuccess && <p className="text-green-500">Form submitted successfully!</p>}
